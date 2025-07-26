@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #333;
+}
+
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.page {
+  display: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.page.active {
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  margin-top: 2rem;
+}
+
+/* Projects Section */
+.project {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #007acc;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #007acc;
+}
+
+/* Contact Icons */
+.contact-icons a {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #007acc;
+  text-decoration: none;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
