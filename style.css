@@ -80,3 +80,23 @@ footer {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+/* Responsive Design */
+@media (max-width: 600px) { 
+  header .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .container {
+    padding: 0.5rem;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
